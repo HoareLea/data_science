@@ -22,7 +22,7 @@ import scipy.stats as stats
     4. Determine the P-value
        - The P-value is the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null 
          hypothesis is true.
-       - Alternatively, a critical value can be determined, and the decision can be made based on whether the test statistic falls in the 
+       - Alternatively, a critical region can be determined, and the decision can be made based on whether the test statistic falls in the 
          critical region.
 
     5. Reject or fail to reject the alternative hypothesis
@@ -32,7 +32,6 @@ import scipy.stats as stats
     - Hypothesis testing helps determine whether observed data deviates significantly from what is expected under the null hypothesis
     - In the event we reject the null hypothesis, hypothesis testing does not tell us what the new value of the parameter being tested 
       should be, merely that is varies significantly from the null hypothesis
-    - Smaller p-values do not imply a greater difference in the parameter values between the null and alternative hypotheses
 
 """
 

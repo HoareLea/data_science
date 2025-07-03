@@ -1,6 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
 # Central Limit Theorem
 
 """
@@ -13,12 +10,13 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # Central Limit Theorem demonstration with different distributions
 
 # Parameters
-population_size = 1000000  # size of the population
-sample_size = 50  # size of each sample
+population_size = 10000  # size of the population
+sample_size = 10000  # size of each sample
 num_samples = 1000  # number of samples
 
 # Generate populations with different distributions
@@ -50,4 +48,4 @@ for i, (dist_name, population) in enumerate(distributions.items()):
     axes[i, 1].set_xlabel('Mean Value')
     axes[i, 1].set_ylabel('Frequency')
 
-plt.show()
+plt.savefig(Path("Statistical_Concepts/images/central_limit_theorem.png"))
