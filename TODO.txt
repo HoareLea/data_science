@@ -2,7 +2,6 @@ Here's a list of everything to be added:
 
 Machine_Leaning
     Concepts
-        - Train/Validation/Test split
         - Bias variance trade off
         - Hyperparameter Tuning
         - Supervised vs Unsupervised vs Ensemble
