@@ -1,1 +1,28 @@
 Here's a list of everything to be added:
+
+Machine_Leaning
+    Concepts
+        - Train/Validation/Test split
+        - Bias variance trade off
+        - Hyperparameter Tuning
+        - Supervised vs Unsupervised vs Ensemble
+        - Reinforcement Learning
+        - Cross Validation
+    Deep Learning
+        - Computer Vision / CNN
+        - 
+
+Software_Engineering
+    AzureML
+        - 
+    DevOps
+        - Git
+    Design_Patterns
+    - Abstract Factory Pattern
+    - Builder Pattern
+    Containerisation
+        - Docker
+        
+Statistics
+    - Averages (i.e. when to use mean/mode/median)
+    - Missing data and how to deal with it
