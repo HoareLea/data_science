@@ -11,7 +11,11 @@ Machine_Leaning
     Deep Learning
         - Computer Vision / CNN
         - 
-
+    Linear_Regression
+        - Confounding
+        - Interpretability
+        - Outlier detection
+        
 Software_Engineering
     AzureML
         - 
@@ -22,7 +26,7 @@ Software_Engineering
     - Builder Pattern
     Containerisation
         - Docker
-        
+
 Statistics
     - Averages (i.e. when to use mean/mode/median)
     - Missing data and how to deal with it
