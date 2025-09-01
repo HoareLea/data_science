@@ -6,7 +6,6 @@ Machine_Leaning
         - Hyperparameter Tuning
         - Supervised vs Unsupervised vs Ensemble
         - Reinforcement Learning
-        - Cross Validation
     Deep Learning
         - Computer Vision / CNN
         - 
