@@ -10,7 +10,6 @@ Machine_Leaning
         - Computer Vision / CNN
         - 
     Linear_Regression
-        - Confounding
         - Interpretability
         - Outlier detection
         
