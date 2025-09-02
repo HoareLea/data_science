@@ -10,7 +10,7 @@ X = iris.data  # Features (sepal length, sepal width, petal length, petal width)
 y = iris.target  # Target variable (species)
 
 # Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=999)
 
 # Standardize the features by scaling (mean=0 and variance=1)
 scaler = StandardScaler()
@@ -28,7 +28,7 @@ y_pred = clf.predict(X_test_scaled)
 
 # Evaluate the model
 accuracy = accuracy_score(y_test, y_pred)
-print(f'Accuracy: {accuracy:.2f}')
+print(f'Accuracy: {100 * accuracy:.2f}%')
 
 # Classification report (precision, recall, F1-score, support)
 print(classification_report(y_test, y_pred, target_names=iris.target_names))
