@@ -18,7 +18,7 @@
 #    Without the factory pattern, every class method would need logic which switches the behaviour depending on the variant. This could get
 #    very verbose if there were many variants or if the logic was complex.
 
-# Step 1: Define an abstract base class for Button
+# Define an abstract base class for Button
 class Button:
     def render(self):
         pass

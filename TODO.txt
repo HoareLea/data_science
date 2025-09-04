@@ -8,9 +8,6 @@ Machine_Leaning
         - Reinforcement Learning
     Deep Learning
         - Computer Vision / CNN
-        - 
-    Linear_Regression
-        - Outlier detection
         
 Software_Engineering
     AzureML

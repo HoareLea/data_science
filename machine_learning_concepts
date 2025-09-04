@@ -8,15 +8,6 @@ General Machine Learning Concepts
     - It aims to detect underlying patterns in the data
     - e.g grouping similar news articles
 
-    Explain the bias-variance trade-off.
-    - Bias relates to how well your model fits your training data with low bias indicating a 'good' fit
-    - Variance relates to how sensitive your model is to the training data with low variance indicating it is
-      not sensitive
-    - High bias means the model is underfit, it fails to capture the complexity withing the training data
-    - Low bias means the model fits the training data well however it could be overfit to the training data meaning it
-      captures too much of the noise and doesn't generalise well to unseen data
-    - It's referred to as a trade-off as sacrificing bias can often lead to better variance
-
     What are overfitting and underfitting? How can they be addressed?
     - Underfitting is when a model fails to capture the underlying complexity with the data (high bias)
     - Overfitting is when a model capture too much of the noise within the data and so doesn't generalise well to unseen
