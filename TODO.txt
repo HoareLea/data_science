@@ -2,7 +2,6 @@ Here's a list of everything to be added:
 
 Machine_Leaning
     Concepts
-        - Bias variance trade off
         - Hyperparameter Tuning
         - Supervised vs Unsupervised vs Ensemble
         - Reinforcement Learning
