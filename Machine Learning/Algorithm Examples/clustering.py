@@ -39,8 +39,19 @@ Common families:
 
 How to judge quality (since there’s no ground truth)?
 - Internal metrics:
-  * Silhouette score ([-1, 1], higher is better).
-  * Davies–Bouldin score (>=0, lower is better).
+  * Silhouette score ([-1, 1], higher is better): mean over points of
+    (b - a) / max(a, b), where a = mean intra-cluster distance and b = mean
+    nearest-cluster distance. Watch out for very imbalanced clusters—silhouette
+    can look optimistic if one tiny, tight cluster sits far from a big one.
+  * Davies–Bouldin (>= 0, lower is better): average, over clusters, of
+    (scatter_i + scatter_j) / separation_ij for each cluster’s most similar
+    neighbor. Penalises overlapping or elongated clusters.
+  * Calinski–Harabasz (>= 0, higher is better): ratio of between-cluster
+    dispersion to within-cluster dispersion. Scales with number of samples,
+    so compare it only across runs of the same dataset.
+  * Inertia (K-Means only, lower is better): within-cluster SSE used for
+    the “elbow” method; it always decreases with larger k, so look for the elbow
+    rather than the minimum.
 - Stability / interpretability:
   * Are results robust to small changes?
   * Do clusters make sense to domain experts?
@@ -108,8 +119,8 @@ def evaluate_clustering(X_space, labels, name, y_true=None):
 
 
 # Fit & compare algorithms
-# 1) K-Means (k=2)
-kmeans = KMeans(n_clusters=3, n_init=10, random_state=72)
+# 1) K-Means (k=3)
+kmeans = KMeans(n_clusters=3, n_init=25, random_state=72)
 kmeans_labels = kmeans.fit_predict(X_full)
 evaluate_clustering(X_full, kmeans_labels, "K-Means (k=3)", y_true=y_true)
 
