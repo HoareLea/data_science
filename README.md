@@ -2,9 +2,12 @@
 
 A repository designed for learning and revising a wide range of data science topics, ranging from simple to advanced areas.
 
+```
+.
 ├── Machine Learning
 │   ├── Algorithm Examples
 │   │   ├── Titanic-Dataset.csv
+│   │   ├── clustering.py
 │   │   ├── decision_tree.py
 │   │   ├── gradient_boost.py
 │   │   ├── linear_regression.py
@@ -15,7 +18,6 @@ A repository designed for learning and revising a wide range of data science top
 │   ├── Concepts
 │   │   ├── cross_validation.ipynb
 │   │   └── train_validation_test.ipynb
-│   ├── Deep Learning
 │   └── Linear_Regression
 │       ├── assumptions_and_tests.ipynb
 │       ├── confounding.ipynb
@@ -24,10 +26,8 @@ A repository designed for learning and revising a wide range of data science top
 │       └── residuals_and_least_squares.ipynb
 ├── README.md
 ├── Software Engineering
-│   ├── Azure
 │   ├── Design_Patterns
 │   │   └── factory_pattern.py
-│   ├── DevOps
 │   ├── Python_Basic_Programming
 │   │   ├── classes.ipynb
 │   │   ├── concurrency.ipynb
@@ -58,3 +58,4 @@ A repository designed for learning and revising a wide range of data science top
 ├── machine_learning_concepts
 ├── pyproject.toml
 └── uv.lock
+```
